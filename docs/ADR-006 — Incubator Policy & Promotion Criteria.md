@@ -1,23 +1,23 @@
-ADR-006 — Incubator Policy & Promotion Criteria
+# ADR-006 — Incubator Policy & Promotion Criteria
 
-Status: Accepted
-Date: 2026-02-01
-Scope: Organisation-wide (RossEngineering)
+**Status**: Accepted
+**Date**: 2026-02-01
+**Scope**: Organisation-wide (RossEngineering)
 
-Context
+## Context
 
-RossEngineering is intended to represent professional, portfolio-grade software engineering work.
+RossEngineering is intended to represent **professional, portfolio-grade software engineering work**.
 However, not all projects begin life in a fully formed state.
 
 Some work requires:
 
-exploration,
+- exploration,
 
-iteration,
+- iteration,
 
-refactoring,
+- refactoring,
 
-or deliberate design experimentation,
+- or deliberate design experimentation,
 
 before it can meet the organisation’s admission standards.
 
@@ -27,132 +27,121 @@ being promoted too early, or
 
 remaining permanently unfinished outside the organisation.
 
-An Incubator concept was required to bridge this gap.
+An **Incubator** concept was required to bridge this gap.
 
-Decision
+## Decision
 
 RossEngineering adopts an Incubator policy to support early-stage projects within the organisation, without lowering professional standards.
 
-Definition
+### Definition
 
 An Incubator project is a repository that:
 
-is intended to become portfolio-grade,
+- is intended to become portfolio-grade,
 
-but has not yet met all admission requirements,
+- but has not yet met all admission requirements,
 
-and is undergoing deliberate development or restructuring.
+- and is undergoing deliberate development or restructuring.
 
-Incubator status is temporary by design.
+Incubator status is **temporary by design**.
 
-Incubator Characteristics
+## Incubator Characteristics
 
 An incubator repository:
 
-Lives inside RossEngineering
+- Lives inside RossEngineering
 
-Is clearly marked as Incubator in its README
+- Is clearly marked as Incubator in its README
 
-May have:
+- May have:
+  - incomplete feature sets,
+  - partial test coverage,
+  - evolving architecture,
+  - provisional documentation
 
-incomplete feature sets,
+However, it must still demonstrate **intentionality**.
 
-partial test coverage,
-
-evolving architecture,
-
-provisional documentation
-
-However, it must still demonstrate intentionality.
-
-Minimum Requirements (Even in Incubator)
+## Minimum Requirements (Even in Incubator)
 
 Even while incubating, a repository must have:
 
-A clear, honest README stating:
+- A clear, honest README stating:
+  - the project’s intent,
+  - current status,
+  - and known gaps
 
-the project’s intent,
+- A basic project structure
 
-current status,
+- Evidence of active reasoning (for example, early decision entries)
 
-and known gaps
+Incubator status does **not** excuse chaos or neglect.
 
-A basic project structure
+## Promotion Criteria
 
-Evidence of active reasoning (for example, early decision entries)
+A repository may graduate from Incubator status once it satisfies the **Repository Admission ADR**, including:
 
-Incubator status does not excuse chaos or neglect.
+- A structured, professional README
 
-Promotion Criteria
+- Automated tests
 
-A repository may graduate from Incubator status once it satisfies the Repository Admission ADR, including:
+- CI pipeline (build + test)
 
-A structured, professional README
+- Decision log (docs/decisions.md)
 
-Automated tests
+Promotion is an **affirmative act**, not an automatic outcome of time passing.
 
-CI pipeline (build + test)
+## Lifecycle Rules
 
-Decision log (docs/decisions.md)
+- Incubator repositories:
+  - may evolve rapidly,
+  - may change direction,
+  - may be paused or abandoned
 
-Promotion is an affirmative act, not an automatic outcome of time passing.
+- If abandoned:
+  - the repository may be archived,
+  - with its incubator status retained for historical context
 
-Lifecycle Rules
+- Repositories do not return to personal accounts once incubated.
 
-Incubator repositories:
-
-may evolve rapidly,
-
-may change direction,
-
-may be paused or abandoned
-
-If abandoned:
-
-the repository may be archived,
-
-with its incubator status retained for historical context
-
-Repositories do not return to personal accounts once incubated.
-
-Rationale
+## Rationale
 
 This policy recognises that:
 
-professional systems are grown, not created fully formed,
+- professional systems are grown, not created fully formed,
 
-early messiness is acceptable when paired with clarity of intent,
+- early messiness is acceptable when paired with clarity of intent,
 
-and standards should be enforced at promotion, not experimentation.
+- and standards should be enforced at promotion, not experimentation.
 
-It allows learning and iteration without eroding organisational coherence.
+It allows learning and iteration **without eroding organisational coherence**.
 
-Consequences
-Positive
+## Consequences
 
-Encourages ambitious, thoughtful projects
+### Positive
 
-Prevents premature promotion
+- Encourages ambitious, thoughtful projects
 
-Makes learning phases explicit and honest
+- Prevents premature promotion
 
-Preserves a clean organisational narrative
+- Makes learning phases explicit and honest
 
-Trade-offs
+- Preserves a clean organisational narrative
 
-Requires conscious review to promote or archive
+### Trade-offs
 
-Adds a small amount of governance overhead
+- Requires conscious review to promote or archive
 
-Notes
+- Adds a small amount of governance overhead
+
+## Notes
 
 Incubator status should be:
 
-visible,
+- visible,
 
-honest,
+- honest,
 
-and periodically revisited.
+- and periodically revisited.
 
 A project that remains incubated indefinitely should prompt a decision:
-promote, archive, or deliberately pause.
+**promote**, **archive**, or **deliberately pause**.
