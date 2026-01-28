@@ -59,7 +59,7 @@ These decisions apply across the organisation unless explicitly overridden.
 
 ### Architecture Decision Records (ADRs)
 
-Formal decisions with long-term impact are captured as ADRs under `docs/`.
+Formal decisions with long-term impact are captured as ADRs under `docs/adr/`.
 
 Key ADRs include:
 
