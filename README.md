@@ -142,3 +142,36 @@ For experimentation, learning exercises, and informal projects, see my personal 
 ---
 
 *Quiet honesty. Clear systems. Deliberate evolution.*
+
+---
+
+## Notepad Plus Plus Linux
+
+The **Notepad Plus Plus Linux** repository is part of the RossEngineering organization, representing my work on porting the widely-used **Notepad++** text editor to Linux environments. This project follows the same engineering principles that underpin the rest of my repositories:
+
+- Clear domain and system modelling
+- Explicit boundaries and responsibilities
+- API-first and backend-focused architectures
+- Thoughtful evolution over feature accumulation
+
+This repository is designed to be a high-quality, maintainable solution for users on Linux, bringing the powerful, extensible features of Notepad++ to a new platform. Like all projects under **RossEngineering**, it is built with longevity, correctness, and clarity in mind.
+
+### Features
+
+- Native Linux support for Notepad++ functionality.
+- Optimized for performance and compatibility with various Linux distributions.
+- Aiming for feature parity with the Windows version, with specific attention to Linux-native improvements.
+
+### Contribution
+
+As with all repositories under **RossEngineering**, contributions to the Notepad Plus Plus Linux project are handled on a **case-by-case basis**. Please start by discussing any proposed changes with the maintainers to ensure architectural coherence.
+
+This repository adheres to the same [AI Usage Policy](docs/adr/ai-usage-policy.md), ensuring responsible integration of AI tools during development.
+
+---
+
+---
+
+This README should now reflect both the overarching philosophy of your work under **RossEngineering** and the specific context of the *Notepad Plus Plus Linux* repository.
+
+Let me know if you'd like any further adjustments!
