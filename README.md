@@ -167,11 +167,3 @@ This repository is designed to be a high-quality, maintainable solution for user
 As with all repositories under **RossEngineering**, contributions to the Notepad Plus Plus Linux project are handled on a **case-by-case basis**. Please start by discussing any proposed changes with the maintainers to ensure architectural coherence.
 
 This repository adheres to the same [AI Usage Policy](docs/adr/ai-usage-policy.md), ensuring responsible integration of AI tools during development.
-
----
-
----
-
-This README should now reflect both the overarching philosophy of your work under **RossEngineering** and the specific context of the *Notepad Plus Plus Linux* repository.
-
-Let me know if you'd like any further adjustments!
